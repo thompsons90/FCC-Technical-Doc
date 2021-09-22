@@ -1,0 +1,171 @@
+/* For Mobile Use */
+@media only screen and (min-width: 320px) {
+
+#navbar {
+  position: fixed;
+  height: 100px;
+  width: 200px;
+  top: 0px;
+  left: 0px;
+  padding-right: 5px;
+  color: black;
+  background-color: white;
+  border: 5px outset gray;
+  z-index: 0;
+  font-family: 'Rye', cursive;
+  background-color:#D3D3D3;
+ display: table;
+}
+
+
+  
+#main-doc {
+  position: relative;
+}
+  
+  .states-container {
+    border: 5px outset gray;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+  }
+
+  header {
+    text-align: center;
+    font-family: 'Rye', cursive;
+  }
+  
+  h2 {
+    font-size: 50px;
+    font-family: 'Rye', cursive;
+  }
+  
+  h3 {
+    text-align: center;
+    font-family: 'Rye', cursive;
+  }
+
+  p {
+    font-family: 'Rye', cursive;
+  }
+  
+#states {
+  object-fit: cover;
+  width: 900px;
+  height: 500px;
+}
+
+.flag-container {
+  width: 300px;
+  height: 300px;
+  border: 5px outset gray;
+  position: absolute;
+  right: 0px;
+}
+
+#texas-flag {
+  width: 300px;
+  height: 300px;
+}
+
+#tennessee-flag {
+   width: 300px;
+  object-fit: cover;
+  position: relative;
+  top: 100px;
+  z-index: -1;
+}
+
+#florida-flag {
+  width: 300px;
+  object-fit: cover;
+  position: relative;
+  top: 40px;
+  z-index: -1;
+}
+
+#louisiana-flag {
+  width: 300px;
+  object-fit: cover;
+  position: relative;
+  top: 40px;
+  z-index: -1;
+}
+
+#arkansas-flag {
+  width: 300px;
+  object-fit: cover;
+}
+
+  .paragraph {
+    width: 500px;
+    position: relative;
+    left: 600px;
+    text-align: center;
+    border: 5px outset gray;
+    background-color:#D3D3D3
+    }
+  }  
+  
+  .state-song {
+    position: relative;
+    left: 575px;
+    border: 5px outset gray;
+    width: 560px;
+    height: 315px;
+  }
+  
+  
+.dividing-image {
+    border: 5px outset gray;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+  }
+
+#longhorn-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+#rocky-top {
+  width: 100%;
+  object-fit: cover;
+}
+
+#disney-world {
+  width: 100%;
+  object-fit: cover;
+}
+#louisiana-cypress {
+  width: 100%;
+  object-fit: cover;
+}
+
+#pig-sooie {
+  width: 100%;
+  object-fit: cover;
+}
+  
+  #footer {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+ 
+  
+  #navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+  
+
+}
